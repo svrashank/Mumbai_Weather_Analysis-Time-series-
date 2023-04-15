@@ -27,8 +27,13 @@ Analysis of weather in Mumbai over 3 decades.
  * From above created 2 Dataframe :\
         1. Mean monthly temperature\
         2. Mean yearly temperature 
- * With the help of monthly dataframe grouped data according to 3 major seasons 
-
+ * With the help of monthly dataframe, grouped data according to 3 major seasons 
+ 
+### Exploratory Data Analysis 
+* The Dataset contained only two variables :1- Temperature, 2- Precipitation 
+* This Project focuses soley on temperature,also,40% of Precipitation data was missing 
+*  
+ 
 
         
 
