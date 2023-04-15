@@ -32,7 +32,7 @@ Analysis of weather in Mumbai over 3 decades.
 ### Exploratory Data Analysis 
 * The Dataset contained only two variables :1- Temperature, 2- Precipitation 
 * This Project focuses soley on temperature,also,40% of Precipitation data was missing 
-*  
+![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Avg_daily_temp_yearly.JPG "Avg temp of last 30 years")
  
 
         
