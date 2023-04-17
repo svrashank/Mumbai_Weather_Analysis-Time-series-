@@ -47,6 +47,13 @@ Analysis of weather in Mumbai over 3 decades.
 ![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Time_series_forecast.JPG "Forecast of Tavg for next 5 years")
 
 ### Project Conclusions 
+* Tmin, Tmax and Tavg of summer season, over the course of 30 years shows a linear increase.
+* Tavg of Monsoon shows a linear increase but the other two are inconclusive 
+* There's a small increase in Tavg of winter but Tmax and Tmin did not show any major variation 
+* The rolling plot clearly show a linear relation in average daily temperature of a year
+* A repitative pattern can be clearly seen in terms of the extremities in any time period. In most cases, the extreme temperatures (Tmax,Tmin) doesn't show any major change but the average temoperature of a day can be seen increasing linearly 
+* From the year 1990 to 2022 Mumbai's average daily temperature rose by ***1.653 degrees*** 
+* The linear regression model forecasts an ***0.403*** degree increase in average daily temperature in five years time 
 
  
 
