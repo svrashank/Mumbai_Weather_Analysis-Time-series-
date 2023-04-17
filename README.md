@@ -45,6 +45,9 @@ Analysis of weather in Mumbai over 3 decades.
 * Linear Regression was chosen due to its capablity of capturing trends
 * Using Deterministic Process training variable (X_avg) and forecast varaiable(X_fore) were created 
 ![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Time_series_forecast.JPG "Forecast of Tavg for next 5 years")
+
+### Project Conclusions 
+
  
 
         
