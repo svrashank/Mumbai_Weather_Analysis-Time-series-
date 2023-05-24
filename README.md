@@ -22,7 +22,9 @@ Analysis of weather in Mumbai over 3 decades.
 * Code : Kaggle time series notebook referred (https://www.kaggle.com/learn/time-series) 
  
  ### Data Cleaning 
- * 15 percent overall missing values ,hence imputed with the weekly mean temperature of that month 
+ * Dataset was split into train and test set and were imputed seperately 
+ * 10 percent overall missing values in the train set,hence imputed with the weekly mean temperature of that month 
+ * Same was done with test set 
  * Day,month,year was exctracted from "Time" column and made into new columns with respective names 
  * From above created 2 Dataframe :\
         1. Mean monthly temperature\
@@ -31,9 +33,9 @@ Analysis of weather in Mumbai over 3 decades.
  
 ### Exploratory Data Analysis 
 * The Dataset contained only two variables :1- Temperature, 2- Precipitation 
-* This Project focuses soley on temperature,also,40% of Precipitation data was missing 
+* Precipitation was dropped since focus was only on temperature 
 ![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Avg_daily_temp_yearly.JPG "Avg temp of last 30 years")
-![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Monsoon.JPG "Avg tmep in monsoon")
+![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Monsoon.JPG "Avg temp in monsoon")
 ![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/Summer.JPG "Avg temp in summer")
 ![alt text](https://github.com/svrashank/Mumbai_Weather_Analysis/blob/main/WInter.JPG "Avg temp in winter")
 
@@ -51,7 +53,7 @@ Analysis of weather in Mumbai over 3 decades.
 * Tavg of Monsoon shows a linear increase but the other two are inconclusive 
 * There's a small increase in Tavg of winter but Tmax and Tmin did not show any major variation 
 * The rolling plot clearly show a linear relation in average daily temperature of a year
-* A repitative pattern can be clearly seen in terms of the extremities in any time period. In most cases, the extreme temperatures (Tmax,Tmin) doesn't show any major change but the average temoperature of a day can be seen increasing linearly 
+* A repititive pattern can be clearly seen in terms of the extremities in any time period. In most cases, the extreme temperatures (Tmax,Tmin) doesn't show any major change but the average temoperature of a day can be seen increasing linearly 
 * From the year 1990 to 2022 Mumbai's average daily temperature rose by ***1.25 degree celsius*** 
 * The linear regression model forecasts an ***0.403 degree celsius*** increase in average daily temperature in five years time 
 
