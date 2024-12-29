@@ -8,7 +8,8 @@ Analysis of weather in Mumbai over 3 decades.
     4. Tmax 
     5. precp
 * Parsed the time column to get day,week,year information.
-* Further seperated the data into 3 major seasons over 3 decades 
+* Further seperated the data into 3 major seasons over 3 decades
+* Built a custom imputer that fills in the missing values for temperature of a day with the average temperature of that week. 
 * Calculated mean temperature for:
      1. Specific Year 
      2. For a specific season of that year 
